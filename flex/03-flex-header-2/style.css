@@ -47,26 +47,27 @@ ul {
   list-style-type: none;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px;
 }
 
-.left-container,
-.right-container {
+.left-container {
   display: flex;
-  align-items: center;
 }
 
-.left-container .links{
+.right-container {
   display: flex;
   gap: 16px;
-  padding: 20px;
-  margin: 0;
 }
 
-.right-container {
-  gap: 15px;
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.profile-image {
+  flex-shrink: 0;
 }
